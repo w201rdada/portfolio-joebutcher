@@ -1,7 +1,5 @@
 # Optimizing organ waitlist location across the United States (#maximizethegiftoflife)
 
-#### Keywords
-
 ## On average, 20 people die each day while waiting for an organ transplant.
 
 Waitlist times vary across the country. People in dire need of an organ can be optimally relocated to maximize the chance of receiving a life saving transplant.
