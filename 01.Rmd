@@ -1,17 +1,15 @@
-# My Optimizing lung donor location
+# Optimizing organ waitlist location across the United States (#maximizethegiftoflife)
 
-#### Keywords {-}
+#### Keywords
 
-yaba, daba, do
+## On average, 20 people die each day while waiting for an organ transplant.
 
-## A beginning.
+Waitlist times vary across the country. People in dire need of an organ can be optimally relocated to maximize the chance of receiving a life saving transplant.
 
-Beginning
+## Use real-time data to determine where 'high priority' should relocate to receive transplant.
 
-## A middle.
+Develop model that will continously advise where to relocate patients based on liklihood of receiving transplant.
 
-Middle
+## Result:  Dramatically reduce the organ transplant waitlist mortality rate by moving people to where they have the greatest chance of receiving the donor they need.
 
-## An end.
 
-End
