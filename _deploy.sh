@@ -1,8 +1,8 @@
 #!/bin/sh
 
-# put your info here and uncomment so git (and GitHub) knows who your commits belong to!
-# git config user.email "calnet@berkeley.edu"
-# git config user.name "Oski Bear"
+
+git config user.email "joe.butcher@berkeley.edu"
+git config user.name "Joe Butcher"
 
 # make sure you're on the master branch
 git checkout master
