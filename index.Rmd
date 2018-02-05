@@ -17,24 +17,21 @@ readLines('https://www.zotero.org/api/users/4687813/items/top?limit=25&format=bi
 
 <!-- Below this line is just examples of how you can embed video from Google Drive. First you have to enable sharing, then just get the object ID which is that long string between d/ and /preview and will also be appended to any sharing link you generate for your video. -->
 <p>
-```{r hello-benji,echo=FALSE,fig.cap="Let's use data science to create the healthcare ecosytstem of the future",fig.align='center'}
-knitr::include_url('https://drive.google.com/open?id=1fSDJ5gaFHLNA1fl-yIN6wxfyj0WHIaxP')
-```
+<!-- ```{r hello-benji,echo=FALSE,fig.cap="Let's use data science to create the healthcare ecosytstem of the future",fig.align='center'}
+knitr::include_url('https://drive.google.com/open?id=1fSDJ5gaFHLNA1fl-yIN6wxfyj0WHIaxP')  
+``` --->
 
-### Optimizing organ waitlist location across the United States {#MaximizeTheGiftOfLife}
+### Optimizing organ transplant waitlist location across the United States {#MaximizeTheGiftOfLife}
 
-With the data and data science tools that exist today, we can and must do a better job deciding where and when patients should be placed on an organ transplant waitlist, and enable data-driven decision making to drastically decrease waitlist mortality.
+With the data and data science tools that exist today, we can and must do a better job deciding where and when patients should be placed on an organ transplant waitlist, and enable data-driven decision making to drastically decrease waitlist mortality. #MaximizeTheGiftOfLife
 
 ### Abstract of my second cool idea {-}
 
 More to come...
   
-### Abstract of my third cool idea {-}
-
-More to come...
 
 ## About the author {-}
 
-Joe Butcher is a current student in UC Berkeley's Master of Information and Data Science (MIDS) program and pursuing his desire to leverage emerging data science technologies to create the healthcare system of the future. Joe currently works for Merck & Company, a leading global biopharmaceutical company, where he supports the Corporate Strategy Office. Prior to Merck, Joe served for 6 years as a U.S. Marine Corps Officer, including assignments in Camp Lejeune, NC and Iraq. Joe holds a BS in Quantitative Economics from the U.S. Naval Academy and an MBA from the Wharton School of the University of Pennsylvania. 
+Joe Butcher is a current student in UC Berkeley's Master of Information and Data Science (MIDS) program, pursuing his desire to leverage emerging data science technologies to help create the healthcare system of the future. Joe currently works for Merck & Company, a leading biopharmaceutical company, where he supports the Corporate Strategy Office. Prior to Merck, Joe served for 6 years as a U.S. Marine Corps Officer, including assignments in Camp Lejeune, NC and Iraq. Joe holds a BS in Quantitative Economics from the U.S. Naval Academy and an MBA from the Wharton School of the University of Pennsylvania. 
 
 *Updated: `r Sys.Date()`*
