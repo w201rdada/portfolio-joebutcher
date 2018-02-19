@@ -1,14 +1,14 @@
-# My second cool idea {#slug-two}
+# Predicting diabetes risk through e-commerce shopping {#slug-two}
 
 #### Keywords {-}
 
 yaba, daba, do
 
-## A beginning.
+## Diabetes among U.S. adults reaches all-time high despite numerous efforts to address the issue
 
-Coming soon..
+This CNN headline likely didn’t surprise too many people. However, what people should be boggled by is why all of the efforts to combat this important issue have failed? 
 
-## A middle.
+## Leverage Amazon shopping behavior to identify customers at risk to diabetes and develop tools to lower overall healthcare costs.
 
 Coming soon..
 
@@ -20,6 +20,6 @@ data.table::fread('https://raw.githubusercontent.com/UCB-MIDS/experiments-causal
 
 Coming soon..
 
-## An end.
+## Result: Employers pay significantly less to keep employees healthy.
 
 Coming soon..
