@@ -1,4 +1,4 @@
-# Optimizing organ transplant waitlist location across the United States {-#MaximizeTheGiftOfLife}
+# Optimizing organ transplant waitlist location across the United States {#MaximizeTheGiftOfLife}
 
 #### Keywords {-}
 
