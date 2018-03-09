@@ -1,25 +1,34 @@
-# Predicting diabetes risk through e-commerce shopping {#slug-two}
+# Leveraging the power of e-commerce to prevent diabetes {#KeepingHealthyPeopleHealthy}
 
-#### Keywords {-}
+#### Keywords {preventative health, future of healthcare, diabetes}
 
-yaba, daba, do
+## Diabetes prevalence among U.S. adults reaches all-time high despite numerous efforts to fight disease
 
-## Diabetes among U.S. adults reaches all-time high despite numerous efforts to address the issue
+This CNN headline [insert reference] likely didn’t surprise too many people. However, what should frustrate patients, providers, and society as a whole is the failure of countless efforts to change the trajectory of this deadly disease. While one could come up with numerous reasons why this is the case, the problem can be defined by two primary drivers:
 
-This CNN headline likely didn’t surprise too many people. However, what people should be boggled by is why all of the efforts to combat this important issue have failed? 
+1)	**The U.S. healthcare system is not incentivized to keep healthy people healthy**:  In analyzing each sub-sector of the healthcare industry, it is clear that the majority of business models are built around treating sick people (and for most organizations … treating as many sick people as possible). Because organizations are rewarded for making as many unhealthy people healthy as possible, there is a lack of focus on preventing disease (particularly chronic conditions such as diabetes). Medical providers see as many sick people as possible in 15 minute increments. Health insurers benefit from an increase in procedures and treatments (by increasing premiums and capturing a set % of their customers’ expenses). Pharmaceutical and medical device companies clearly benefit from this trend of focusing on people that are already sick. How different would this situation look if healthcare players and patients were incentivized to keep healthy people healthy? 
 
-## Leverage Amazon shopping behavior to identify customers at risk to diabetes and develop tools to lower overall healthcare costs.
+2)	**Patients are not sufficiently motivated and incentivized to change behavior**:  Do patients want to live with a disease which threatens their livelihood? Absolutely not. However, patients consistently know they are either at risk of diabetes or have pre-diabetes and end up having a more advanced form of diabetes. Healthcare providers do make efforts to limit the severity of this (and other) diseases. However, patients are not provided the right incentives to change. Changing behavior for something that might happen in the future (i.e. severe type 2 diabetes) is very challenging. However, if patients are incentivized monetarily while they are healthy it could meaningfully change their behavior and lifestyle.  
 
-Coming soon..
+What if we used the power of data science and the prevalence of customer data on e-commerce websites to identify patients most at risk for diabetes and incentivize them (monetarily) to prevent the onset of the disease? 
 
+## Predict individuals at risk to diabetes and incentivize them to stay healthy.
 
-```{r experimental,echo=F,results='asis',eval=F}
-data.table::fread('https://raw.githubusercontent.com/UCB-MIDS/experiments-causality/master/data/GerberGreenBook_Chapter3_Donations.csv?token=ABNmuX-Q14rzQ4teItDenc9L5Wo2flncks5ZL5qEwA%3D%3D') %>% stargazer::stargazer(type = 'html',title = 'Something from W241 Experiments and Causality')
-```
+The proposed tool will be two-fold:  predict individuals who are at risk to diabetes and incentive those identified to change behaviors. The development of this tool is contingent on gaining access to a large e-commerce company’s (e.g., Amazon, Walmart, and Target) along with a large health insurer’ data (e.g., United Healthcare, Aetna). 
 
+**Predicting at risk individuals**:  Waist size along has been found to be just one indicator of diabetes. [WebMd] The initial primary objective of the proposed tool is to identify healthy people that are most at risk for diabetes. To do so, the tool will leverage a large data set from an e-commerce company and a health insurer in order to determine which shopping behaviors and characteristics put patients at severe risk for diabetes. In this analysis, a training set would be established using historical shopping behavior and the diagnosis of type 2 diabetes. By accessing a large data set of e-commerce customers and patients, a machine learning algorithm will be able to determine the key indicators that put an individual at risk for diabetes over the following 2-5 years.  
 
-Coming soon..
+**Incentivizing and preventing diabetes**:  Identifying patients at risk is clearly only half the battle. Patients at risks must be sufficiently motivated to drastically change behavior. Currently, our healthcare system assumes that patient education is the answer. This is clearly not effective. The proposed tool will reward at risk patients financially when they show clear signs of changing their behavior. This tool proposes that we use the following 2-step process:
 
-## Result: Employers pay significantly less to keep employees healthy.
+ 1)	Determine key metrics that (if changed) will drastically reduce the probably that a patient will be diagnosed with diabetes.       Examples include BMI, blood pressure, body fat percentage, and cholesterol.
+2)	Develop a system that rewards patients (again … financially) on a regular basis if they meet or maintain their agreed upon targets.
 
-Coming soon..
+As this new tool gathers more data, it will continue to refine the key metrics utilized and the incentives that are offered to patients through the use of machine learning. The data provided to develop the tool will certainly be useful, but the real-time data collected will be even more important as the tool gets more effective at identifying patients at risk, developing key metrics to track, and incentivizing patients appropriately. 
+
+## Result: Employers pay significantly less to keep healthy employees healthy.
+
+Results are two-fold. Most importantly, the tool will prevent healthy individuals from being diagnosed with type 2 diabetes (and eventually other chronic care conditions). Secondly, employers will pay significantly less for their employees’ healthcare costs (not to mention the fact that healthy workers are more productive).
+
+While the potential results are clear, the business model to be utilized will need considerable thought and consideration. The value created will need to be shared between the parties involved (e-commerce company, health insurers, and employers). While the proposed tool could be created within any of these types of companies, our team is initially proposing to develop the product separately. As such, clearly accessing the data required will be a challenge. Our team’s belief is companies will be willing to invest in pilot to determine the value at stake. As our team develops a proof of concept, it will clearly need to think through further business model refinement.
+
+We believe that data science has the power to drastically change the preventative healthcare landscape and are confident that our tool can effectively target at risk patients and meaningfully change unhealthy behavior. #KeepingHealthyPeopleHealthy
