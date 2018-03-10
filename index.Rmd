@@ -25,9 +25,9 @@ knitr::include_url('https://drive.google.com/open?id=1fSDJ5gaFHLNA1fl-yIN6wxfyj0
 
 With the data and data science tools that exist today, we can and must do a better job deciding where and when patients should be placed on an organ transplant waitlist, and enable data-driven decision making to drastically decrease waitlist mortality. #MaximizeTheGiftOfLife
 
-### Abstract of my second cool idea {-}
+### Diabetes prevalence among U.S. adults reaches all-time high despite numerous efforts to fight disease {#absract2}
 
-More to come...
+Data science has the power to prevent the prevelance of deadly chronic care conditions. We believe that by accessing e-commerce and health insuere data we can effectively identify patients at risk of type 2 diabetes and meaningfully change unhealthy behavior to save lives and save the healthcare system money. 
   
 
 ## About the author {-}
